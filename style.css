@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://wallpapercave.com/wp/wp3272178.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.navi{
+    width: 100%;
+    padding: 15px;
+    background-color: burlywood;
+}
+.navi ul{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navi ul li{
+    list-style: none;
+}
+.navi a{
+    text-decoration: none;
+    margin: 0 30px;
+    font-size: 20px;
+    color: #111;
+}
+.text{
+    color: #fff;
+    text-align: center;
+    margin-top: 120px;
+}
+.text h1{
+    font-size: 60px;
+    color: #FF0000;
+}
+.text p{
+    font-size: 30px;
+    margin-top: 20px;
+    color: #ffff;
+}
+span{
+    color: #00acee;
+}
+
+.fa-facebook{
+    color: #3b5998;
+}
+.fa-youtube{
+    color: #FF0000;
+}
+.fa-twitter{
+    color: #00acee;
+}
+.fa-github{
+    color: #171515;
+}
+#about{
+    width: 100%;
+    padding-top: 60px;
+    
+}
+#about h1{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #FF0000;
+}
+.one{
+    padding: 20px;
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #00acee;
+    color: #111;
+    border-radius: 10px;
+}
+.one img{
+    margin: 0 30px;
+}
+
+.two h2{
+    color: #111;
+    margin-bottom: 20px;
+}
+.container{
+    position: relative;
+    /* text-align: center; */
+    width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.three p{
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    position: absolute;
+    top: 100%;
+    background-color: #111;
+    height: 100%;
+    border-radius: 10px;
+    font-size: 20px;
+    line-height: 40px;
+    text-indent: 20px;
+    letter-spacing: 2px;
+    color: #FF0000;
+    transition: all 1s ease;
+}
+.container:hover p{
+    top: 0;
+}
+#blog{
+    width: 100%;
+    background-color: #111;
+}
+
+.taa{
+    padding: 40px;
+    text-align: center;
+    color: #00acee;
+}
+.insidebox{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.items img{
+    width: 100%;
+}
+.items{
+    width: 250px;
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+}
+.items h1{
+    background-color: #fff;
+    text-align: center;
+    padding: 5px 0;
+}
+.items p{
+    position: absolute;
+    top: 100%;
+    background-color: #00acee;
+    color: #111;
+    height: 100%;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    transition: all 1s ease;
+}
+.items:hover p{
+    top: 0;
+}
+#contact{
+    width: 100%;
+}
+#contact h1{
+    color: #FF0000;
+}
+.mainBox{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.left{
+    width: 50%;
+    margin: 30px 0 100px 100px;
+}
+.left h2{
+    font-size: 50px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+
+}
+.left p{
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+    line-height: 30px;
+}
+.left a{
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px 30px;
+    font-size: 20px;
+    color: #fff;
+}
+.ff{
+    background-color: #00acee;
+}
+.gg{
+    background-color: #FF0000;
+}
+.mm{
+    margin-top: 40px;
+    font-size: 20px;
+}
+.right{
+    width: 40%;
+    background-color: #f8fafb;
+}
+.contactBox{
+    margin: 30px 20px;
+    padding: 20px;
+    
+}
+button{
+    background-color: #fff;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: start;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.contactBox h3{
+    display: flex;
+    justify-content: end;
+    font-size: 15px;
+}
+.contactBox a{
+    text-align: center;
+}
+.atext{
+    text-align: center;
+    width: 100%;
+    background-color: #00acee;
+    padding: 20px 0;
+}
+.atext a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+.contactBox p{
+    margin: 30px;
+    text-align: center;
+}
+.kk{
+    font-size: 20px;
+}
+.contactBox span{
+    color: #00acee;
+}
+
+footer{
+    width: 100%;
+    background-color: burlywood;
+    padding: 20px 0;
+}
+.bb {
+    /* background-color: #f8fafb; */
+    text-align: center;
+    margin: 0 auto;
+}
+.bb .fa-brands{
+    font-size: 40px;
+    margin: 10px 40px;
+}
